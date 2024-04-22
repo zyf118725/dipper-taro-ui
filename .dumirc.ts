@@ -19,4 +19,5 @@ export default defineConfig({
       }`,
     ],
   },
+  plugins: ['./plugins/watch.ts'],
 });

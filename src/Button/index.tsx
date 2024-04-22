@@ -7,7 +7,8 @@ export interface ButtonProps {
 const Button: FC<ButtonProps> = ({ children }) => {
   return (
     <div>
-      <div>{children}s</div>
+      sss
+      {/* <View>xx</View> */}
     </div>
   );
 };

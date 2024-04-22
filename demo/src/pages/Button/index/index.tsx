@@ -1,6 +1,5 @@
 import { View } from '@tarojs/components';
 import { Button } from 'dipper-taro-ui';
-import React from 'react';
 
 export default function Index() {
   return (

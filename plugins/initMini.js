@@ -1,11 +1,10 @@
-
 // 将src下的demo转移到demo下
 const path = require('path');
 const fs = require('fs-extra');
 const rootPath = path.resolve(__dirname, '..');
 const srcPath = rootPath + '/src';
-const destPath = rootPath + '/dest';
-const { initMiniByDumi } = require('./utils')
+const destPath = rootPath + '/demo';
+const { initMiniByDumi } = require('./utils');
 
 // 初始化生成小程序项目的页面和路由
 initMiniByDumi();
@@ -24,5 +23,3 @@ function watchFile() {
     }
   });
 }
-
-

@@ -5,6 +5,7 @@
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": "./src/index.ts",
   "files": [
     "dist"
   ],
@@ -42,6 +43,16 @@
       "eslint --fix",
       "prettier --parser=typescript --write"
     ]
+  },
+  "dependencies": {
+    "@tarojs/components": "^3.6.27",
+    "@tarojs/helper": "^3.6.27",
+    "@tarojs/plugin-framework-react": "^3.6.27",
+    "@tarojs/plugin-platform-weapp": "^3.6.27",
+    "@tarojs/runtime": "^3.6.27",
+    "@tarojs/shared": "^3.6.27",
+    "@tarojs/taro": "^3.6.27",
+    "fs-extra": "^11.2.0"
   },
   "devDependencies": {
     "@babel/runtime": "^7.24.4",
