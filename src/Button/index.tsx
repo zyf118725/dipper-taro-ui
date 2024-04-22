@@ -1,4 +1,6 @@
 import React, { type FC } from 'react';
+// import { View } from '@tarojs/components';
+
 export interface ButtonProps {
   type?: 'primary' | 'default';
   children?: React.ReactNode;

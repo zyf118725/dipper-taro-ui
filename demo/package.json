@@ -32,7 +32,6 @@
     "@tarojs/shared": "3.6.26",
     "@tarojs/taro": "3.6.26",
     "chokidar": "^3.6.0",
-    "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-refresh": "^0.11.0"
   },
